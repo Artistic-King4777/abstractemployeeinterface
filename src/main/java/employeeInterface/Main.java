@@ -27,7 +27,7 @@ public class Main {
             System.out.println("\n" + "HR owes " + eStaff.getFirstName() + " " + eStaff.getLastName() + ": $" + eStaff.getPaymentAmount());
         }
 
-        System.out.println( "\n" + "Part Number #" + receipt.partNumber + " / Desccription: " +  receipt.partDescription + "\n" + "You owe: $" +  receipt.getPaymentAmount());
+        System.out.println( "\n" + "Part Number #" + receipt.getPartNumber() + " / Desccription: " +  receipt.getPartDescription() + "\n" + "You owe: $" +  receipt.getPaymentAmount());
 
 
         //MAKE A UML FOR THIS THEN DO SUPERHEROES  IMPLEMENTATION
